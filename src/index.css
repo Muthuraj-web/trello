@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-description{
+  background-color: wheat;
+  display: none;
+}
+
+.cardform-wrapper{
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.section{
+  background-color: lightgray;
+}
+.section-img{
+  height: 30vh;
+  object-fit: cover;
+}
+.add-card{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.card-img{
+  object-fit: cover;
+  height: 20vh;
+
+}
+.created{
+  color: gray;
+}
